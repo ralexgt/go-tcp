@@ -359,7 +359,7 @@ func validPasswords(parts []string) string {
 // Server functionalities -------------- END
 
 func main() {
-	config, err := loadConfig("../server_config.json")
+	config, err := loadConfig("./server_config.json")
 	if err != nil {
 		log.Fatalf("Error loading configuration: %v", err)
 	}
