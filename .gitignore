@@ -1,0 +1,9 @@
+# Ignore all binaries
+# Ignore all
+*
+
+# Unignore all files with extentions
+!*.*
+
+# Unignore all directories
+!*/
